@@ -16,7 +16,6 @@
   "prConcurrentLimit": 10,
   "prHourlyLimit": 60,
   "prCreation": "immediate",
-  "prTitle": "Update dependencies",
   "labels": ["dependencies", "renovate"],
   "packageManagers": [
     {
