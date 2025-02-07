@@ -13,7 +13,6 @@
     }
   ],
   "rangeStrategy": "auto",
-  "updateLockFile": true,
   "prConcurrentLimit": 10,
   "prHourlyLimit": 60,
   "prCreation": "immediate",
