@@ -6,12 +6,6 @@
       "source": "cpan"
     }
   ],
-  "packageManagers": [
-    {
-      "name": "cpan",
-      "enabled": true
-    }
-  ],
   "repositories": [
     {
       "packageManager": "cpan",
