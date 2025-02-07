@@ -1,14 +1,17 @@
 {
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
-  "datasources": [
-    {
-      "name": "cpan",
-      "source": "cpan"
-    }
-  ],
   "rangeStrategy": "auto",
   "prConcurrentLimit": 10,
   "prHourlyLimit": 60,
   "prCreation": "immediate",
-  "labels": ["dependencies", "renovate"]
+  "labels": ["dependencies", "renovate"],
+  "regexManagers": [
+    {
+      "fileMatch": ["cpanfile"],
+      "matchStrings": [
+        "\\b(\\w+)\\s+=>\\s+'?([\\d\\.]+)'?"
+      ],
+      "datasource": "cpan"
+    }
+  ]
 }
