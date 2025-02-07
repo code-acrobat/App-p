@@ -1,5 +1,30 @@
 {
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "datasources": [
+    {
+      "name": "cpan",
+      "source": "cpan"
+    }
+  ],
+  "packageManagers": [
+    {
+      "name": "cpan",
+      "enabled": true
+    }
+  ],
+  "repositories": [
+    {
+      "packageManager": "cpan",
+      "datasource": "cpan"
+    }
+  ],
+  "rangeStrategy": "auto",
+  "updateLockFile": true,
+  "prConcurrentLimit": 10,
+  "prHourlyLimit": 60,
+  "prCreation": "immediate",
+  "prTitle": "Update dependencies",
+  "labels": ["dependencies", "renovate"],
   "fileMatch": [
     "(^|/)cpanfile$"
   ]
