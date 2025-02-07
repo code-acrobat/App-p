@@ -6,12 +6,6 @@
       "source": "cpan"
     }
   ],
-  "repositories": [
-    {
-      "packageManager": "cpan",
-      "datasource": "cpan"
-    }
-  ],
   "rangeStrategy": "auto",
   "prConcurrentLimit": 10,
   "prHourlyLimit": 60,
