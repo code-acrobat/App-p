@@ -7,7 +7,7 @@ requires 'List::AllUtils';
 requires 'Pod::Usage';
 requires 'Scalar::Util';
 requires 'YAML::XS';
-requires 'utf8::all', '0.023';
+requires 'utf8::all', '0.024';
 requires 'XML::Simple';
 requires 'XML::Hash::LX';
 requires 'Data::DPath';
