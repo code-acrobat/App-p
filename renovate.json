@@ -25,7 +25,11 @@
   "prCreation": "immediate",
   "prTitle": "Update dependencies",
   "labels": ["dependencies", "renovate"],
-  "fileMatch": [
-    "(^|/)cpanfile$"
+  "packageManagers": [
+    {
+      "fileMatch": ["cpanfile"],
+      "datasource": "cpan",
+      "enabled": true
+    }
   ]
 }
