@@ -1,0 +1,14 @@
+requires 'Data::Dump';
+requires 'File::Slurper';
+requires 'JSON';
+requires 'L';
+requires 'LWP::Simple';
+requires 'List::AllUtils';
+requires 'Pod::Usage';
+requires 'Scalar::Util';
+requires 'YAML::XS';
+requires 'utf8::all';
+requires 'XML::Simple';
+requires 'XML::Hash::LX';
+requires 'Data::DPath';
+requires 'Hash::Flatten';
