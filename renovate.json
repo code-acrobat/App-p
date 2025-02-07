@@ -10,12 +10,5 @@
   "prConcurrentLimit": 10,
   "prHourlyLimit": 60,
   "prCreation": "immediate",
-  "labels": ["dependencies", "renovate"],
-  "packageManagers": [
-    {
-      "fileMatch": ["cpanfile"],
-      "datasource": "cpan",
-      "enabled": true
-    }
-  ]
+  "labels": ["dependencies", "renovate"]
 }
